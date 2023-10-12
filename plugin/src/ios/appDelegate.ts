@@ -29,6 +29,8 @@ export function modifyObjcAppDelegate(contents: string): string {
       
 [super application:application didFinishLaunchingWithOptions:launchOptions]`
     );
+
+    console.log(contents);
   }
 
   return contents;
