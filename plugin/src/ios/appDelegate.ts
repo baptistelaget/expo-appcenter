@@ -27,7 +27,7 @@ export function modifyObjcAppDelegate(contents: string): string {
       "return [super application:application didFinishLaunchingWithOptions:launchOptions];",
       `${methodInvocationBlock}
       
-return [super application:application didFinishLaunchingWithOptions:launchOptions]`
+return [super application:application didFinishLaunchingWithOptions:launchOptions];`
     );
   }
 
